@@ -34,7 +34,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="todo-app container">
-        <h1 className="center blue-text">Todo's</h1>
+        <h1 className="center red-text lighten-2">Todo List</h1>
         <Todos todos={this.state.todos} completeItem={this.completeItem} />
         <NewTodo addTodo={this.addTodo} />
       </div>
