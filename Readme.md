@@ -1,5 +1,5 @@
 # Simple React App
-![React](todo-list/public/ReactLogo.gif)
+![React](todo-list/public/react-logo.jpeg)
 
 ## Introduction
 A very simple todo list application made using React.js. This is to serve as a starting point for your journey in creating beautiful client side applications using React.
@@ -37,10 +37,29 @@ npm start
 Once you run this, the following screen should pop up on your browser:
 ![StartPage](todo-list/public/ReactHomePage.png)
 
-<!-- ### Experiment Time
-You can start making this project truly yours by editing the App.js file in the src directory -->
+### Experiment Time
+You can start making this project truly yours by editing the App.js file in the src directory.
 
+For example, replace all the content in App.js with the following block of code.
 
+```javascript
+import React from 'react';
 
+const App = () => {
+  return (
+    <div style={{
+      color: "red",
+      justifyContent: "center",
+      textAlign: "center"
+    }}>
+      <h1>My React Wesite</h1>
+    </div >
+  );
+}
 
+export default App;
+```
 
+Your website should now reload and you should see this on your screen,
+
+![FirstWebsite](todo-list/public/MyReactWebsite.png)
